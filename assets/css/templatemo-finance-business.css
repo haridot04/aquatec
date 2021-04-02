@@ -285,6 +285,19 @@ header .navbar {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
+.navbar .navbar-brand img {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  width: 180px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
 .navbar .navbar-brand h2 em {
   font-style: normal;
   font-size: 16px;
@@ -1263,6 +1276,9 @@ footer .contact-form button.filled-button:hover {
 
 /* Responsive Style */
 @media (max-width: 768px) {
+  .navbar .navbar-brand img {
+    width: 120px;
+  }
   .sub-header {
     display: none;
   }
@@ -1332,6 +1348,9 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media (max-width: 992px) {
+  .navbar .navbar-brand img {
+    width: 120px;
+  }
   .navbar .navbar-brand {
     position: absolute;
     left: 30px;
